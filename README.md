@@ -60,17 +60,6 @@ On Linux, if `tkinter` is not installed:
 sudo apt install python3-tk
 ```
 
-### Building the executable yourself
-
-If you want to build the `.exe` on Windows:
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile --windowed "Telnet_Password_Tester.py"
-```
-
-The executable will be created in the `dist/` folder. Copy `passwords.txt` into the same folder.
-
 ## Usage
 
 1. **Host** — enter the IP address of the target device
